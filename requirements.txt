@@ -1,8 +1,11 @@
 fastapi
-uvicorn
+uvicorn[standard]
 bcrypt
-python-jose
+python-jose[cryptography]
 textblob
 pydantic
 python-multipart
-openai
+streamlit
+plotly
+pandas
+requests
